@@ -15,17 +15,17 @@ React + Typescript的项目模版。
 
 在src/pages目录下添加属于自己的模块：
 
-![image-20190218142323787](/image-20190218142323787.png)
+![image-20190218142323787](/readmeIMG/image-20190218142323787.png)
 
 然后在navData.ts中配置路由信息即可：
 
-![image-20190218142353190](/image-20190218142353190.png)
+![image-20190218142353190](/readmeIMG/image-20190218142353190.png)
 
 **类型约束：**
 
 在src/interface中定义你的类型，globalInterface用于全局接口的定义，其余的接口请按照模块进行分文件夹：
 
-![image-20190218142529172](/image-20190218142529172.png)
+![image-20190218142529172](/readmeIMG/image-20190218142529172.png)
 
 
 
