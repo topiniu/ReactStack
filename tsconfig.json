@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "esnext",
+    "lib": [
+      "es2016",
+      "dom"
+    ],
+    "target": "es6",
+    "experimentalDecorators":true,
+    "jsx": "react",
+    "noUnusedLocals": true,
+    "moduleResolution": "node"
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
