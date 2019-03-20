@@ -18,17 +18,13 @@ export const Q = (resolve: any) => {
       this.unmount = true;
     }
     componentDidCatch(error: any) {
-      console.log("something wrong");
     }
     async componentDidMount() {
       if(this.unmount) return;
       try {
         let s = await resolve();
-        console.log(s);
         this.setState({ module: s.default });
       } catch (error) {
-        console.log("something going wrong");
-        console.log(error);
       }
     }
     render() {

@@ -10,7 +10,6 @@ class Detail extends React.Component<any,any>{
     super(props)
   }
   render(){
-    console.log(this.props)
     return (
       <div>
         page2

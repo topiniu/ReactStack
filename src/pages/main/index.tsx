@@ -3,11 +3,9 @@ import {Link} from 'react-router-dom'
 
 class Main extends React.Component<any,any>{
   constructor(props:any){
-    console.log(props)
     super(props)
   }
   render(){
-    console.log(this.props)
     return (
       <div>
         page1
