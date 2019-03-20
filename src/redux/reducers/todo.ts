@@ -32,5 +32,8 @@ export default (state = initialState, action: STOREACTIONINTER) => {
         }
       };
     }
+
+    default:
+      return initialState
   }
 };
