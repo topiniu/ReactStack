@@ -29,7 +29,11 @@ module.exports = {
         enforce: "pre",
         test: /\.js$/,
         loader: "source-map-loader"
-      }
+      },
+      {
+        test: /\.(jpg|jpeg|png|gif)$/,
+        loader: "url-loader?limit=100000"
+      },
     ]
   },
   plugins: [
@@ -40,6 +44,11 @@ module.exports = {
     new CopyPlugin([
       {
         from: 'src/service-worker.js'
+      },
+      {
+        from: 'manifest.json'
+      },{
+        from: 'src/public/img/icon.jpg'
       }
     ])
     // new WorkboxPlugin.GenerateSW({

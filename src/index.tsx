@@ -13,12 +13,12 @@ ReactDOM.render(
 );
 
 
-if('serviceWorker' in navigator){
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/service-worker.js',{scope: '/'}).then((registration:any) => {
-      console.log('serviceWorker 注册成功')
-    }).catch((err:any) => {
-      console.log('serviceWorker注册失败：' + err)
-    })
-  })
-}
+// if('serviceWorker' in navigator){
+//   window.addEventListener('load', () => {
+//     navigator.serviceWorker.register('/service-worker.js',{scope: '/'}).then((registration:any) => {
+//       console.log('serviceWorker 注册成功 v2版本')
+//     }).catch((err:any) => {
+//       console.log('serviceWorker注册失败：' + err)
+//     })
+//   })
+// }
