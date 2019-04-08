@@ -12,7 +12,7 @@ class Detail extends React.Component<any,any>{
   render(){
     return (
       <div>
-        <p className="text">page2</p>
+        <p className="text">page2 hello</p>
         page2
         <Link to="/">Go to P1</Link>
         {/* <Link to="/page2/self">to Self</Link> */}
